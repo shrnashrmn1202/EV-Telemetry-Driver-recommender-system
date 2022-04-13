@@ -21,7 +21,7 @@ The following training experiment was created in Microsoft Azure Machine Learnin
 After training experiment, Predictive experiment (using Multiclass Decision Forest) was perfomed. 
 ![image](https://user-images.githubusercontent.com/100325884/159705892-68aa2576-8025-4540-b2cf-180745b5267d.png)
 
-A web service will test the input values to give a predicted results for the driver. For example, input the values of speed, acceleration, shock absorbance, and tyre temperature then predict if driver drives as normal, safe driving or danger. Based on this, the suitable driver for specific event can be selected.
+A web service will test the input values to give a predicted results for the driver. For example, input the values of speed, acceleration, shock absorbance, and tyre temperature then predict if driver drives as normal (N), safe driving (SD) or danger (D). Based on this, the suitable driver for specific event can be selected.
 
 Key features of project: 
 1. Telemetry system is built and tested. Real-time results are obtained where data is logged on channel every 15 seconds. Data visualized on ThingSpeak are of real data obtained from CV testing. 
